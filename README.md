@@ -26,7 +26,7 @@ Create any image (you can do in another shell window/tab):
 $ vim Dockerfile
 ```
 ```
-FROM debian:wheezy
+FROM debian:jessie
 
 
 RUN apt-get update
@@ -63,7 +63,7 @@ $ git clone git@github.com:pluhin/docker_demo.git
 ```
 First Dockerfile1:
 ```
-FROM debian:wheezy
+FROM debian:jessie
 
 RUN apt-get update
 RUN apt-get install -y samba nginx openssl git wget curl
